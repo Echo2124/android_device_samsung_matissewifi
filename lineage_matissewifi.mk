@@ -20,7 +20,8 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 $(call inherit-product, device/samsung/matissewifi/full_matissewifi.mk)
 
+WITH_GMS_GO := true
 PRODUCT_DEVICE := matissewifi
 PRODUCT_NAME := lineage_matissewifi
-
+PRODUCT_TYPE := go
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
